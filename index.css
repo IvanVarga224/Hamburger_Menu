@@ -47,5 +47,17 @@
 
 .menu .line-3{
     transform: translate(-50%, 40px);
+}
 
+.openmenu .line-1{
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.openmenu .line-3{
+    transform: translate(-50%, -50%) rotate(45deg);
+    transition: transform 0.5s, width 0.5s;
+}
+
+.openmenu .line-2{
+    width: 0;
 }
